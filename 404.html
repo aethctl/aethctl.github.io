@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<title>Project moved</title>
+<script>
+    if (location.pathname === "/Ryoku-on-NixOS" ||
+        location.pathname.startsWith("/Ryoku-on-NixOS/")) {
+        location.replace(
+            "https://ryoku-dev.github.io" +
+            location.pathname +
+            location.search +
+            location.hash
+        );
+    }
+</script>
+<body>
+<p>See <a href="https://github.com/Ryoku-dev">Ryoku-dev</a>.</p>
+</body>
+</html>
